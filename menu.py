@@ -1,6 +1,7 @@
 from juego_dados import tirar_dados
 from nombre_y_sexo import grupos
 from salas_juegos import edad
+from contraseña import privacidad
 
 def volver_al_menu():
     input("\nPreciosa Enter para volver al menú.")
@@ -33,7 +34,7 @@ def menu ():
             edad()
 
         elif opcion == "4":
-            print("Contraseña")
+            privacidad()
         
         elif opcion == "5":
             print("Facturas")
