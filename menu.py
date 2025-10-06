@@ -1,4 +1,5 @@
 from juego_dados import tirar_dados
+from nombre_y_sexo import grupos
 
 def volver_al_menu():
     input("\nPreciosa Enter para volver al menú.")
@@ -25,7 +26,7 @@ def menu ():
             tirar_dados()
         
         elif opcion == "2":
-            print("Nombre y sexo")
+            grupos()
 
         elif opcion == "3":
             print("Casino")
