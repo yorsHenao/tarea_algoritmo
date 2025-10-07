@@ -2,6 +2,7 @@ from juego_dados import tirar_dados
 from nombre_y_sexo import grupos
 from salas_juegos import edad
 from contraseña import privacidad
+from iva import calcular_factura
 
 def volver_al_menu():
     input("\nPreciosa Enter para volver al menú.")
@@ -37,7 +38,7 @@ def menu ():
             privacidad()
         
         elif opcion == "5":
-            print("Facturas")
+            calcular_factura()
         
         elif opcion == "6":
             print("Posición de numeros en listas")
