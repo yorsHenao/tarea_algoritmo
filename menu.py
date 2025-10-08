@@ -3,6 +3,11 @@ from nombre_y_sexo import grupos
 from salas_juegos import edad
 from contraseña import privacidad
 from iva import calcular_factura
+from Metodos import ejecutar_menu
+
+
+
+
 
 def volver_al_menu():
     input("\nPreciosa Enter para volver al menú.")
@@ -41,7 +46,7 @@ def menu ():
             calcular_factura()
         
         elif opcion == "6":
-            print("Posición de numeros en listas")
+            ejecutar_menu()
         
         elif opcion == "7":
             print("precios frutas")
