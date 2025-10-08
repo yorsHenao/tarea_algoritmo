@@ -4,7 +4,7 @@ from salas_juegos import edad
 from contraseña import privacidad
 from iva import calcular_factura
 from Metodos import ejecutar_menu
-
+from diccionario import calcular_frutas
 
 
 
@@ -49,7 +49,7 @@ def menu ():
             ejecutar_menu()
         
         elif opcion == "7":
-            print("precios frutas")
+            calcular_frutas()
         
         elif opcion == "8":
             print("Crear diccionario")
