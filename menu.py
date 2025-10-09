@@ -6,7 +6,7 @@ from iva import calcular_factura
 from Metodos import ejecutar_menu
 from diccionario import calcular_frutas
 from cesta_compras import crearArticulo, guardar_compra
-
+from alumnos import alumnos
 
 
 
@@ -57,7 +57,7 @@ def menu ():
             guardar_compra(cesta)
         
         elif opcion == "9":
-            print("Alumnos")
+            alumnos()
         
         elif opcion =="10":
             print("Hasta luego")
