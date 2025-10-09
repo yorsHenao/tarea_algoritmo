@@ -1,5 +1,5 @@
 def modificar_listas_numeros():
-    print("\Menu de opciones")
+    print(f"\n{"*"*10}Menu de opciones{"*"*10}\n")
     print("1. Agregar un numero a la lista")
     print("2. Eliminar numero de la lista")
     print("3. Insertar un numero en una posición especifica")

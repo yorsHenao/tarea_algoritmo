@@ -16,7 +16,7 @@ def volver_al_menu():
 def mostrar_menu():
     print("Menu")
     print("1. Juego dados:")
-    print("2. Nombre y sexo")
+    print("2. Grupo A y grupo B")
     print("3. Casino")
     print("4. Contraseña")
     print("5. Facturas")
