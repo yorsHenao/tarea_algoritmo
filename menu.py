@@ -5,6 +5,7 @@ from contraseña import privacidad
 from iva import calcular_factura
 from Metodos import ejecutar_menu
 from diccionario import calcular_frutas
+from cesta_compras import crearArticulo, guardar_compra
 
 
 
@@ -52,7 +53,8 @@ def menu ():
             calcular_frutas()
         
         elif opcion == "8":
-            print("Crear diccionario")
+            cesta = crearArticulo()
+            guardar_compra(cesta)
         
         elif opcion == "9":
             print("Alumnos")
